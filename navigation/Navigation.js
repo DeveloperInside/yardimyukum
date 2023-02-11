@@ -5,10 +5,13 @@ import screens from './screenLinking'
 
 const Stack = createNativeStackNavigator()
 
-export default function Navigation () {
+export default function Navigation() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false
+        }}>
         <Stack.Screen
           name={screens.plakaSorgu.name}
           component={screens.plakaSorgu.component}
