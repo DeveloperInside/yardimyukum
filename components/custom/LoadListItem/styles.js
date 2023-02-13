@@ -1,7 +1,6 @@
 import { StyleSheet } from 'react-native'
 import commonStyles, { sizes } from 'styles/commonStyles'
 
-
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
@@ -11,13 +10,11 @@ const styles = StyleSheet.create({
     ...commonStyles.rowCenter
   },
   btn: {
-    marginRight: sizes.general.xs,
-    paddingVertical: sizes.general.lg
+    marginRight: sizes.general.xs
   },
   txt: {},
   inpt: {
-    paddingHorizontal: sizes.maxi.md,
-    paddingVertical: sizes.general.xs
+    paddingHorizontal: sizes.maxi.md
   }
 })
 

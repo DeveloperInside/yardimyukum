@@ -1,6 +1,7 @@
 const colors = {
   dark: {
     primary: '#1D1D1D',
+    secondary: '#484848',
     text: '#FFFFFF',
     input: '#202C3C',
     button: '#2F80ED',
