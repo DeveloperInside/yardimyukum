@@ -50,6 +50,11 @@ const commonStyles = StyleSheet.create({
   },
   radius: {
     borderRadius: sizes.general.ms
+  },
+  border: {
+    borderWidth: 1,
+    borderColor: colors.dark.border,
+    borderRadius: sizes.general.ms
   }
 })
 
