@@ -3,7 +3,8 @@ import colors from 'styles/colors'
 
 const styles = StyleSheet.create({
   input: {
-    backgroundColor: colors.dark.input
+    backgroundColor: colors.dark.input,
+    margin: 0
   }
 })
 

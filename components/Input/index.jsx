@@ -4,11 +4,13 @@ import colors from 'styles/colors'
 import styles from './styles'
 
 const Input = React.forwardRef((props, ref) => {
+  const { mode = 'outlined', style } = props
+
   return (
     <TextInput
       {...props}
       ref={ref}
-      mode="outlined"
+      mode={mode}
       outlineColor={colors.dark.border}
       activeOutlineColor={colors.dark.borderActive}
       textColor={colors.dark.text}
@@ -18,7 +20,7 @@ const Input = React.forwardRef((props, ref) => {
           onSurfaceVariant: colors.dark.placeholder
         }
       }}
-      style={[props.style, styles.input]}
+      style={[style, styles.input]}
     />
   )
 })

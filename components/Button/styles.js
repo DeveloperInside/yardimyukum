@@ -6,9 +6,9 @@ import fonts from 'styles/fonts'
 const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.dark.button,
+    justifyContent: 'center',
     ...commonStyles.radius,
-    ...commonStyles.paddingButton,
-    ...commonStyles.center
+    ...commonStyles.paddingButton
   },
   text: {
     textAlign: 'center',
