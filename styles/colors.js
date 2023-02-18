@@ -1,7 +1,7 @@
 const colors = {
   dark: {
-    primary: '#1D1D1D',
-    primary70: '#1d1d1dc2',
+    primary: '#242B43',
+    primary70: '#242B43',
     text: '#FFFFFF',
     input: '#202C3C',
     button: '#2F80ED',

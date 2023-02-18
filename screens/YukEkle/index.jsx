@@ -23,15 +23,25 @@ const YukEkle = () => {
     }
   ]
 
+  const renderItem = ({ item }) => {
+    return (
+      <LoadListItem
+        item={item}
+        onPress={abc => {
+          console.log(item)
+        }}
+      />
+    )
+  }
+
   return (
     <SafeAreaView style={commonStyles.container}>
       <View>
         <Text>YukEkle</Text>
       </View>
-      <LoadListItem item={testData[0]} />
-      <FlatList data={testData} renderItem={LoadListItem}/>
+      <FlatList data={testData} renderItem={renderItem} />
       <Fab style={styles.fab} onPress={() => console.log('Pressed')} />
-      <LoadModal item={testData[0]} isOpen={false}/>
+      <LoadModal item={testData[0]} isOpen={false} />
     </SafeAreaView>
   )
 }
