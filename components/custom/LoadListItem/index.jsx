@@ -3,16 +3,16 @@ import React from 'react'
 import Button from 'components/Button'
 import styles from './styles'
 
-const LoadListItem = ({ item, onPress }) => {
+const LoadListItem = ({ name, count, onPress }) => {
   return (
     <View style={styles.container}>
       <Button
-        text={item?.name}
+        text={name}
         buttonStyle={styles.button}
         textStyle={styles.buttonText}
         onPress={onPress}
       />
-      <TextInput value={item?.count} style={styles.input} />
+      <TextInput value={count} style={styles.input} keyboardType="number-pad" />
     </View>
   )
 }
