@@ -1,0 +1,33 @@
+{
+    "store": {
+        "delivery": {
+            "licence_plate": "asdasd",
+            "delivery_code": "asdasd",
+            "delivery_info": {
+                "driver_name": "mete",
+                "driverr_contact": "89349839483",
+                "distributor": "ABB"
+            },
+            "load_list": [
+                {
+                    "product_class": "ısınma",
+                    "product_name": "battaniye",
+                    "count": "700",
+                    "annotation": "son not"
+                },
+                {
+                    "product_class": "GIDA",
+                    "product_name": "EKMEK",
+                    "count": "1700",
+                    "annotation": "TAZE"
+                },
+                {
+                    "product_class": "İÇECEK",
+                    "product_name": "SU",
+                    "count": "7000",
+                    "annotation": "not"
+                }
+            ]
+        }
+    }
+}
