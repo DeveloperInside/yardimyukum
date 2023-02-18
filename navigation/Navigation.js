@@ -16,6 +16,10 @@ export default function Navigation() {
           name={screens.plakaSorgu.name}
           component={screens.plakaSorgu.component}
         />
+        <Stack.Screen
+          name={screens.yukEkle.name}
+          component={screens.yukEkle.component}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   )

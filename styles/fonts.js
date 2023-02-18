@@ -8,6 +8,10 @@ const fonts = StyleSheet.create({
   button: {
     fontSize: 16,
     fontWeight: '600'
+  },
+  input: {
+    fontSize: 16,
+    fontWeight: '400'
   }
 })
 
